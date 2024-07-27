@@ -4,3 +4,11 @@ p {
 img {
     width: 300px
 }
+
+.question {
+    color: green;
+}
+
+.answers {
+    color: blueviolet;
+}
