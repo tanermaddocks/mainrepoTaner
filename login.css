@@ -16,7 +16,7 @@ form {
     margin: auto;
     border-radius: 16px;
 
-    box-shadow: 0px 0px 32px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 32px 1px rgba(0,0,0,0.75);
 }
 
 .form-input {
@@ -42,10 +42,12 @@ form {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    transition: width 4s ease-in-out 1s;
 }
 
 .submit-btn:hover {
     background-color: violet;
+    width: 230px;
 }
 
 label {
